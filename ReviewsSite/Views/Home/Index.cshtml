@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<ReviewsSite.Models.VideoGame>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Our Page</h1>
+</div>
+<div>
+    <a href="~/Views/Platform/Index.cshtml">Platforms</a>
+    <a href="~/Views/VideoGame/Index.cshtml">Video Games</a>
+    <a href="~/Views/Review/Index.cshtml">Reviews</a>
+</div>
+
+<body>
+    <ul>
+        @foreach (var game in Model)
+        {
+            <li><a href="/VideoGame/Details/@game.Id">@game.Name</a></li>
+        }
+    </ul>
+</body>
+
+
