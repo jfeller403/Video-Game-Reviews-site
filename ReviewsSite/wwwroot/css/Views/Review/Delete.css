@@ -1,0 +1,42 @@
+﻿:root {
+    --main-color: #016236; /*forest green*/
+    --accent-dark: #06040A; /*blue-black*/
+    --accent-light: #02894B; /*emerald green*/
+    --accent-background: #BED3AB; /*seafoam green*/
+    --main-font: 'Inconsolata';
+    --header-font: 'DotGothic16';
+    --text-light: #BED3AB;
+}
+
+html {
+    background-color: var(--accent-background);
+}
+
+h1, h4 {
+    font-family: 'Inconsolata';
+}
+
+#videoGameName, #username, #rating, #review, h2 {
+    padding-bottom: 1em;
+}
+
+#delete {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#DeleteLink a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+#DeleteLink a:hover {
+    background-color: var(--accent-light);
+    color: var(--text-light);
+}
+
+
