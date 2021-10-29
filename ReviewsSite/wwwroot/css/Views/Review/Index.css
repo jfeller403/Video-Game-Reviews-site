@@ -1,0 +1,42 @@
+﻿:root {
+    --main-color: #1E5515; /*forest green*/
+    --text-color: #06040A; /*blue-black*/
+    --background-color: #D7D7A8; /*chartreuse*/
+    --accent-dark: #2C7721; /*kelly green*/
+    --accent-light: #8BCA67; /*neon green*/
+    --main-font: 'Inconsolata';
+    --header-font: 'DotGothic16';
+}
+
+table {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+table thead tr th h3 {
+    font-family: var(--main-font), Tahoma, sans-serif;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+table tbody tr td {
+    background-color: var(--accent-light);
+    font-family: var(--main-font), Verdana, sans-serif;
+    color: var(--text-color);
+    font-size: 14px;
+    padding: .5rem;
+}
+
+table tbody tr #rating {
+    font-weight: bold;
+    text-align: center;
+}
+
+table tbody tr #videoGameName {
+    text-align: center;
+}
+
+table tbody tr #username {
+    text-align: center;
+}

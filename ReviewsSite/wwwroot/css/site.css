@@ -1,0 +1,39 @@
+:root {
+    --main-color: #1E5515; /*forest green*/
+    --text-color: #06040A; /*blue-black*/
+    --background-color: #D7D7A8; /*chartreuse*/
+    --accent-dark: #2C7721; /*kelly green*/
+    --accent-light: #8BCA67; /*neon green*/
+    --main-font: 'Inconsolata';
+    --header-font: 'DotGothic16';
+}
+
+* {
+    font-family: sans-serif;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    background-color: var(--background-color);
+    margin-top: 3rem;
+}
+
+p{
+    font-family: var(--main-font), Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--text-color);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: var(--header-font), Tahoma, sans-serif;
+    color:var(--main-color);
+    align-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-around;
+}
